@@ -1,6 +1,12 @@
-# Nicholas Rodak | Data & Intelligence Portfolio
+# Nicholas Rodak | Strategic Intelligence & Operations Portfolio
 
-These projects use Python to create automated, end-to-end pipelines, applying both quantitative and qualitative modeling to deliver clear, actionable intelligence.
+Strategic Intelligence & Operations Portfolio
+
+This repository demonstrates the technical execution of intelligence tradecraft.
+
+While traditional analysis stops at the report, this portfolio focuses on operationalizing intelligence—building the automated Python pipelines, mock-driven frameworks, and "Minimum Viable Systems" required to answer Key Intelligence Questions (KIQs) in real-time.
+
+Core Focus: Bridging the gap between high-level strategic intent and technical reality.
 
 ---
 
@@ -19,9 +25,9 @@ An automated OSINT pipeline that tracks daily economic sentiment from Reddit usi
 
 ## SignalBot v2.0
 
-> **Key Intelligence Question:** How does a rules-based, top-down analytical swing trading strategy perform against emotionally-driven investment decisions?
+> **Key Intelligence Question:** How does a rules-based, top-down analytical trading strategy perform against emotionally-driven investment decisions?
 
-A modular, multi-bot system designed to inform a quantitative swing trading strategy (buy, sell, hedge) using a top-down analytical framework.
+A quantitative system designed to test rule-based logic against emotional market behavior. Uses a modular, multi-bot architecture to automate decision hierarchies.
 
 * **Technology Stack:** Python, FRED API, Financial Data (Yahoo Finance), Google Cloud, Google Sheets, Looker Studio.
 * **Status:** `Core Functionality Live / v2.1 in Development`
