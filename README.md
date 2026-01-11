@@ -13,15 +13,15 @@ Core Focus: R&D Laboratories for bridging the gap between high-level strategic i
 
 >**Key Intelligence Question:** How can observable crypto-manipulation behaviors bridge the intelligence gap between open-source signals and on-chain transactions to attribute serial malicious actors?
 
-A specialized intelligence collection tool/workflow designed to test the correlation between social engineering events (OSINT) and blockchain forensics. The system utilizes a Mock-Driven Development (MDD) framework to simulate adversarial tradecraft, validating a "Hunter-Listener-Analyst" workflow that detects behavioral patterns across the "OSINT-to-On-Chain" divide to identify "Lazy" and "Sophisticated" funding clusters.
+A specialized intelligence collection tool/workflow designed to test the correlation between social engineering events (OSINT) and blockchain forensics. The system utilizes a Mock-Driven Development (MDD) framework to simulate adversarial tradecraft, validating a "Hunter-Listener-Analyst" workflow that detects behavioral patterns across the "OSINT-to-On-Chain" divide to identify funding clusters.
 
 * **Technology Stack:** Python, SQLite, Alchemy SDK (Web3), PRAW (Reddit), Telethon (Telegram), Mock-Driven Data Simulation.
 * **Status:** `MVS MDD Complete / Pipeline Logic Validated`
 * **Workflow:**
-*   **Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation validates and prioritizes target channels for Listener module.
-*   **Listener (Collection):** Monitors targeted channels for obfuscated "pre-pump" signals (Coin Ticker, Time, Exchange Context).
-*   **Translator (Normalization):** Maps social signals to actionable Contract Addresses via multi-chain lookups.
-*   **Analyst (Attribution):** Executes heuristic trace-back logic on the blockchain to identify the specific wallets funding the intial pump purchases.
+  --**Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation validates and prioritizes target channels for Listener module.
+  --**Listener (Collection):** Monitors targeted channels for obfuscated "pre-pump" signals (Coin Ticker, Time, Exchange Context).
+  --**Translator (Normalization):** Maps social signals to actionable Contract Addresses via multi-chain lookups.
+  --**Analyst (Attribution):** Executes heuristic trace-back logic on the blockchain to identify the specific wallets funding the intial pump purchases.
 * **Conclusion:** Rapid prototyping demonstrated through this project can be used to test novel, tailored targeting methodologies against dynamic adversary behavior and establish the technical roadmap for moving from controlled (MDD) to real-time environment. Future updates to operationalize methodology should include integration of OCR (Tesseract) to parse image-based signals, NLP for complex date parsing, and development of live API sensors to production clean room environment.
 * **Code Repository:** The code for this project is in a private repository, available upon request.
 
@@ -34,10 +34,10 @@ A scalable data engineering framework designed to monitor and optimize a network
 * **Technology Stack:** Python (Data Automation) Google Sheets API (Data Lake), Looker Studio (Dashboard), IoT Sensors (Hardware Telemetry).
 * **Status:** `Actively Developing: Architecture Defined / Prototyping Phase`
 * **Workflow:**
-*   **Collection (Edge Nodes):** Physical prototype production nodes act as data generators, producing raw operational and production metrics.
-*   **Ingestion/Integration (Mesh):** Multi-vector data pipelines (telemetry, user input, forecast projections) normalized into a unified structural database.
-*   **Visualization (C2 Dashboard):** Displays real-time Heath & Status indicators, enabling data-driven decisions and validation of NVMF key performance indicators (KPI).
-* **Next Steps:** Once validation of KPIs, expand and itegrate real-time low-cost hardware sensors, implement automated 'alert logic' for node failures and warnings.  
+  --**Collection (Edge Nodes):** Physical prototype production nodes act as data generators, producing raw operational and production metrics.
+  --**Ingestion/Integration (Mesh):** Multi-vector data pipelines (telemetry, user input, forecast projections) normalized into a unified structural database.
+  --**Visualization (C2 Dashboard):** Displays real-time Heath & Status indicators, enabling data-driven decisions and validation of NVMF key performance indicators (KPI).
+* **Next Steps:** Once validation of KPIs, expand and itegrate real-time low-cost hardware sensors, implement automated alert logic for node failures and warnings.  
   
 ---
 ## MarketFeel v1.1
@@ -61,5 +61,5 @@ A quantitative system designed to test rule-based logic against emotional market
 
 * **Technology Stack:** Python, FRED API, Financial Data (Yahoo Finance), Google Cloud, Google Sheets, Looker Studio.
 * **Status:** `Core Functionality Live`
-* **Conclusion:** The system sucessfully demonstrated that rules-based Python bots can effectively prioritize and highlight 'winning' ticker symbols in backtesting. Realistic limitations of API latency and human-in-the-loop requirements for trade execution renders the the strategy uncompetitive against institutional HFT algorithms.   
+* **Conclusion:** The system sucessfully demonstrated that rules-based Python bots can effectively prioritize and highlight "winning" ticker symbols in backtesting. Realistic limitations of API latency and human-in-the-loop requirements for trade execution renders the the strategy uncompetitive against institutional HFT algorithms.   
 * **Code Repository:** The code for this project is in a private repository, available upon request.
