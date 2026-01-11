@@ -18,7 +18,7 @@ A specialized intelligence collection tool/workflow designed to test the correla
 * **Technology Stack:** Python, SQLite, Alchemy SDK (Web3), PRAW (Reddit), Telethon (Telegram), Mock-Driven Data Simulation.
 * **Status:** `MVS MDD Complete / Pipeline Logic Validated`
 * **Workflow:**
-  -**Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation validates and prioritizes target channels for Listener module.
+  * **Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation validates and prioritizes target channels for Listener module.
   * **Listener (Collection):** Monitors targeted channels for obfuscated "pre-pump" signals (Coin Ticker, Time, Exchange Context).
   * **Translator (Normalization):** Maps social signals to actionable Contract Addresses via multi-chain lookups.
   * **Analyst (Attribution):** Executes heuristic trace-back logic on the blockchain to identify the specific wallets funding the intial pump purchases.
