@@ -12,7 +12,7 @@ Core Focus: R&D Laboratories for bridging the gap between high-level strategic i
 
 ## Delphi v1.0 (Internal Tooling)
 
->**Key Intelligence Question:** How does a soverign, offline AI system function as a reliable, secure force multipler for strategic intelligence analysis and decision support?
+>**Key Intelligence Question:** How can a soverign, offline AI system function as a reliable, secure force multipler for strategic intelligence analysis and decision support?
 
 A local-first, air-gapped Retrieval-Augmented Generation (RAG) system engineered to prioritize proprietary doctrine and hard data over general model weights. Delphi is architected with a strict "Hierarchy of Truth" and defined mental models to eliminate hallucinations and enforce rigorous analytic methodology and tradecraft, allowing the incorporation of sensitive information into workflow and decision-making processes. The system is a long-term initiative for internal business development (e.g. HydroMesh, etc).
 
