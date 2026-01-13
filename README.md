@@ -9,6 +9,21 @@ While traditional analysis stops at the report, this portfolio focuses on operat
 Core Focus: R&D Laboratories for bridging the gap between high-level strategic intent and technical reality.
 
 ---
+
+## Delphi v1.0 (Internal Tooling)
+
+>**Key Intelligence Question:** How does a soverign, offline AI system function as a reliable, secure force multipler for strategic intelligence analysis and decision support?
+
+A local-first, air-gapped Retrieval-Augmented Generation (RAG) system engineered to prioritize proprietary doctrine and hard data over general model weights. Delphi is architected with a strict "Hierarchy of Truth" and defined mental models to eliminate hallucinations and enforce rigorous analytic methodology and tradecraft, allowing the incorporation of sensitive information into workflow and decision-making processes. The system is a long-term initiative for internal business development (e.g. HydroMesh, etc).
+
+* **Technology Stack:** Local LLM (Llama 3 / DeepSeek), Ollama, Open WebUI, Python (Telemetry Ingestion), Ubuntu
+* **Status:** Actively Developing: Hierarchy, Mental Models Architecture Defined / Data Collection (Continuous), Defining Hardware Requirements
+* **Workflow:**
+  * **Ingestion:** Tiered data architecture that ranks information sources and differentiates between high-fidelity and general open-source knowledge.
+  * **Arbitration:** Strict logic layer that forces the model to priortize "Commander's Intent" and hard data over its base training data.
+  * **Analysis:** Dynamic persona switching using defined "Mental Models" to automatically shift the analytic framework based on operational context.
+  * **Relevance:** Relates responses to standing assessments and assumptions.  
+
 ## AcousticPump v1.0 (MVS)
 
 >**Key Intelligence Question:** How can observable crypto-manipulation behaviors bridge the intelligence gap between open-source signals and on-chain transactions to attribute serial malicious actors?
@@ -49,6 +64,11 @@ An automated OSINT pipeline that tracks daily economic sentiment from Reddit usi
 * **Live Dashboard:** https://lookerstudio.google.com/s/uPVKEKSONHw
 * **Technology Stack:** Python, Reddit API, NLP (Hugging Face), Google Cloud, Google Sheets, Looker Studio.
 * **Status:** `Live / Updating Daily`
+* **Workflow:**
+  * **Discover:** Executed recursive searches across r/all for neutral economic keywords across economic topics.
+  * **Prioritize:** Upvote Ratio threshold serves as proxy to identify high-velocity narratives and reduce processing volume to high-consensus posts.
+  * **Filter:** Applies a multi-layer mesh (Topical, Geographic, and "Not of Interest" keywords) to systematically prune irrelevant noise.
+  * **Analysis:** Employs a domain-specific NLP layer with contextual overrides to correctly interpret economic modifiers and assign high-fidelity sentiment scores.
 * **Conclusion:** Closer analyst investigation of sentiment shifts can be correlated to real-world events; however, the signal-to-noise ratio, despite robust filtering, and ambiguous sentiment (neutral posts) remain a challenge. These challenges, along with nearly certain bot activity, suggest that the current vector (Reddit) does not consistently produce reliable, authentic sentiment. Future iterations should refine the KIQ and methodology to focus on an "expert panel" as a proxy for sentiment and public discourse, thereby reducing ambiguous and inauthentic data points.  
 * **Code Repository:** The code for this project is in a private repository, available upon request.
 
@@ -60,6 +80,9 @@ An automated OSINT pipeline that tracks daily economic sentiment from Reddit usi
 A quantitative system designed to test rule-based logic against emotional market behavior. Uses a modular, multi-bot architecture to automate decision hierarchies.
 
 * **Technology Stack:** Python, FRED API, Financial Data (Yahoo Finance), Google Cloud, Google Sheets, Looker Studio.
-* **Status:** `Core Functionality Live`
-* **Conclusion:** The system sucessfully demonstrated that rules-based Python bots can effectively prioritize and highlight "winning" ticker symbols in backtesting. Realistic limitations of API latency and human-in-the-loop requirements for trade execution renders the the strategy uncompetitive against institutional HFT algorithms.   
+* **Status:** `Core Functionality Complete`
+* **Workflow (Core Functionality):**
+  * **Strategic Assessment:** Determines overall "Risk-On/Risk-Off" posture based on yield curves and momentum.
+  * **Technical Filtering:** Executes scan of pre-defined sector ETFs to identify sectors outperforming SPY and then identifies "Alpha Symbols" within identified sectors (relative strength score, moving average, breakout trigger, volume confirmation)
+* **Conclusion:** The system successfully demonstrated that rules-based Python bots can effectively prioritize and highlight "winning" ticker symbols in backtesting. Realistic limitations of API latency and human-in-the-loop requirements for trade execution renders the the strategy uncompetitive against institutional HFT algorithms.   
 * **Code Repository:** The code for this project is in a private repository, available upon request.
