@@ -17,7 +17,7 @@ Core Focus: R&D Laboratories for bridging the gap between high-level strategic i
 A local-first, air-gapped Retrieval-Augmented Generation (RAG) system engineered to prioritize proprietary doctrine and hard data over general model weights. Delphi is architected with a strict "Hierarchy of Truth" and defined mental models to eliminate hallucinations and enforce rigorous analytic methodology and tradecraft, allowing the incorporation of sensitive information into workflow and decision-making processes. The system is a long-term initiative for internal business development (e.g. HydroMesh, etc).
 
 * **Technology Stack:** Local LLM (Llama 3 / DeepSeek), Ollama, Open WebUI, Python (Telemetry Ingestion), Ubuntu
-* **Status:** Actively Developing: Hierarchy, Mental Models Architecture Defined / Data Collection (Continuous), Defining Hardware Requirements
+* **Status:** `Actively Developing: Hierarchy, Mental Models Architecture Defined / Data Collection (Continuous), Defining Hardware Requirements`
 * **Workflow:**
   * **Ingestion:** Tiered data architecture that ranks information sources and differentiates between high-fidelity and general open-source knowledge.
   * **Arbitration:** Strict logic layer that forces the model to priortize "Commander's Intent" and hard data over its base training data.
