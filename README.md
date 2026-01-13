@@ -26,14 +26,14 @@ A local-first, air-gapped Retrieval-Augmented Generation (RAG) system engineered
 
 ## AcousticPump v1.0 (MVS)
 
->**Key Intelligence Question:** How can observable crypto-manipulation behaviors bridge the intelligence gap between open-source signals and on-chain transactions to attribute serial malicious actors?
+>**Key Intelligence Question:** How can crypto-manipulation behaviors bridge the gap between open-source signals and on-chain transactions to attribute serial malicious actors?
 
 A specialized intelligence collection tool/workflow designed to test the correlation between social engineering events (OSINT) and blockchain forensics. The system utilizes a Mock-Driven Development (MDD) framework to simulate adversarial tradecraft, validating a "Hunter-Listener-Analyst" workflow that detects behavioral patterns across the "OSINT-to-On-Chain" divide to identify funding clusters.
 
 * **Technology Stack:** Python, SQLite, Alchemy SDK (Web3), PRAW (Reddit), Telethon (Telegram), Mock-Driven Data Simulation.
 * **Status:** `MVS MDD Complete / Pipeline Logic Validated`
 * **Workflow:**
-  * **Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation validates and prioritizes target channels for Listener module.
+  * **Hunter (Discovery):** Automates the scraping and sanitization of "dirty" OSINT leads (Reddit) to identify high-risk Telegram channels. Note: Future live capability incorporates human-in-the-loop OSINT investigation to validate and prioritize target channels for Listener module.
   * **Listener (Collection):** Monitors targeted channels for obfuscated "pre-pump" signals (Coin Ticker, Time, Exchange Context).
   * **Translator (Normalization):** Maps social signals to actionable Contract Addresses via multi-chain lookups.
   * **Analyst (Attribution):** Executes heuristic trace-back logic on the blockchain to identify the specific wallets funding the intial pump purchases.
@@ -65,7 +65,7 @@ An automated OSINT pipeline that tracks daily economic sentiment from Reddit usi
 * **Technology Stack:** Python, Reddit API, NLP (Hugging Face), Google Cloud, Google Sheets, Looker Studio.
 * **Status:** `Live / Updating Daily`
 * **Workflow:**
-  * **Discover:** Executed recursive searches across r/all for neutral economic keywords across economic topics.
+  * **Discover:** Executes recursive searches across r/all for neutral economic keywords across economic topics.
   * **Prioritize:** Upvote Ratio threshold serves as proxy to identify high-velocity narratives and reduce processing volume to high-consensus posts.
   * **Filter:** Applies a multi-layer mesh (Topical, Geographic, and "Not of Interest" keywords) to systematically prune irrelevant noise.
   * **Analysis:** Employs a domain-specific NLP layer with contextual overrides to correctly interpret economic modifiers and assign high-fidelity sentiment scores.
